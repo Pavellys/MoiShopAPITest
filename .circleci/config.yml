@@ -37,7 +37,7 @@ workflows:
   version: 2
   commit:
     jobs:
-      - api_tests
+      - api-tests
   periodical:
     triggers:
       - schedule:
@@ -47,4 +47,4 @@ workflows:
               only:
                 - master
     jobs:
-      - api_tests
+      - api-tests
